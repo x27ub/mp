@@ -1,0 +1,29 @@
+Airport location database                  11th February, 2002
+--------------------------------------------------------------
+
+This SQL table of little more than 8000 airports around the
+world has been compiled from various sources on the Internet.
+I believe I've had to do a sufficient amount of my own work
+and data mangling to call this my own.
+
+Each table row contains 
+ - The airport's three-letter IATA code
+ - A two-letter ISO country code
+ - Latitude and longitude (as doubles)
+ - A display name for the airport
+
+Note that the locations in this database do differ from
+those used by airlines in mileage calculations etc. Usually
+this is because the data in this table is more accurate.
+If you want to approximate airline data, start stripping
+least significant digits from our data until the figures
+look similar. The other option is to buy the official
+Location ID codes from IATA; an annual subscription to the
+data is $2,190.00 (USD).
+
+This table and the data in it is believed to be in the public
+domain. If you'd like to submit changes or updates, feel
+free to drop me a line at karppinen@pobox.com.
+
+-- Marko Karppinen
+
