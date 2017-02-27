@@ -18,10 +18,10 @@ $TYPO3_CONF_VARS['EXT']['extList'] = 'css_styled_content,info,perm,func,filelist
 // Updated by TYPO3 Core Update Manager 30-08-12 12:27:40
 $TYPO3_CONF_VARS['SYS']['encryptionKey'] = 'b5247e8eea7809477c42247288280cca90c51ad3c4fdfd421501c1d9f0c58baabdfc652bb1f6095d8bca3764470ed14c';	// Modified or inserted by TYPO3 Install Tool. 
 $TYPO3_CONF_VARS['SYS']['compat_version'] = '4.5';	//  Modified or inserted by TYPO3 Install Tool.
-$typo_db_username = 'dbo436808464';	//  Modified or inserted by TYPO3 Install Tool.
-$typo_db_password = 'xh8KHG3O';	//  Modified or inserted by TYPO3 Install Tool.
+$typo_db_username = 'user';	//  Modified or inserted by TYPO3 Install Tool.
+$typo_db_password = 'path';	//  Modified or inserted by TYPO3 Install Tool.
 $typo_db_host = '127.0.0.1';	//  Modified or inserted by TYPO3 Install Tool.
-$typo_db = 'db436808464';	//  Modified or inserted by TYPO3 Install Tool.
+$typo_db = 'db';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['BE']['disable_exec_function'] = '0';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['GFX']['gdlib_png'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
 $TYPO3_CONF_VARS['GFX']['im_version_5'] = 'im6';	// Modified or inserted by TYPO3 Install Tool. 
